@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+html{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: rgb(28,28,28);
+    color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img,video, svg{
+    width: 100%;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+.duck{
+    margin-block: 5rem;
+    padding-block: 2rem;
+}
+
+.duck__header,
+.duck__content{
+    margin-bottom: 3rem;
+}
+
+.duck__header a > img{
+    width: 200px;
+}
+
+.duck__content{
+    width: 100%;
+}
+
+.duck__back{
+    background-color: white;
+}
+
+.search{
+   background-color: white; 
+}
+
